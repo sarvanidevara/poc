@@ -1,11 +1,9 @@
-name: Build and Deploy Code
-
+name: Build and Deploy POC Code
 on:
   push:
     branches: ["development"]
   pull_request:
-    branches: ["development"]    
-
+    branches: ["development"]
 jobs:
   job1:    
     runs-on: ubuntu-latest
