@@ -2,9 +2,9 @@ name: Build and Deploy Code
 
 on:
   push:
-    branches: ["development"]
+    branches: ["main"]
   pull_request:
-    branches: ["development"]    
+    branches: ["main"]    
 
 jobs:
   job1:    
