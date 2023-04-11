@@ -1,4 +1,4 @@
-name: Build and Deploy Code
+name: Build and Deploy POC Code
 
 on:
   push:
