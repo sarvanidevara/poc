@@ -7,7 +7,7 @@ on:
     branches: ["development"]
 
 jobs:
-  setup:
+  job1:
     runs-on: ubuntu-latest
     steps: 
       - name: pulling git repo
