@@ -2,9 +2,9 @@ name: Build and Deploy POC Code
 
 on:
   push:
-    branches: ["main"]
+      branches: ["main"]
   pull_request:
-    branches: ["main"]    
+      branches: ["main"]    
 
 jobs:
   job_setup:    
