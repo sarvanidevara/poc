@@ -21,4 +21,4 @@ jobs:
       - name: pulling git repo
         uses: actions/checkout@v2
       - name: Say hello to Sarvani
-        run: echo "Hi Sarvani"
+        run: echo "Hi Sarvani.."
